@@ -1,0 +1,73 @@
+
+text {
+    color: green; /* Set text color to green */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+.header {
+    background-color: #333; /* Dark background for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Flex container for icons */
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between icons */
+}
+
+/* Style for each icon */
+.icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Make icons round */
+    object-fit: cover; /* Ensure icons maintain aspect ratio */
+}
